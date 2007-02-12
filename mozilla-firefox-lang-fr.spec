@@ -1,5 +1,5 @@
 Summary:	French resources for Mozilla-firefox
-Summary(pl):	Francuskie pliki jêzykowe dla Mozilli-firefox
+Summary(pl.UTF-8):   Francuskie pliki jÄ™zykowe dla Mozilli-firefox
 Name:		mozilla-firefox-lang-fr
 Version:	2.0.0.1
 Release:	1
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 French resources for Mozilla-firefox.
 
-%description -l pl
-Francuskie pliki jêzykowe dla Mozilli-firefox.
+%description -l pl.UTF-8
+Francuskie pliki jÄ™zykowe dla Mozilli-firefox.
 
 %prep
 
