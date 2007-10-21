@@ -1,12 +1,12 @@
 Summary:	French resources for Mozilla-firefox
 Summary(pl.UTF-8):	Francuskie pliki językowe dla Mozilli-firefox
 Name:		mozilla-firefox-lang-fr
-Version:	2.0.0.7
+Version:	2.0.0.8
 Release:	1
 License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/fr.xpi
-# Source0-md5:	c33ea3092a87a2fc0df4f66bb1651315
+# Source0-md5:	96e2e6b3632d77a045b4c794536b5e1e
 URL:		http://www.mozilla.org/
 BuildRequires:	unzip
 Requires:	mozilla-firefox >= %{version}
