@@ -1,13 +1,13 @@
 %define		_lang		fr
-Summary:	French resources for Mozilla-firefox
-Summary(pl.UTF-8):	Francuskie pliki językowe dla Mozilli-firefox
+Summary:	French resources for Firefox
+Summary(pl.UTF-8):	Francuskie pliki językowe dla Firefoksa
 Name:		mozilla-firefox-lang-%{_lang}
-Version:	3.0.2
+Version:	3.0.5
 Release:	1
-License:	GPL
+License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
 Group:		I18n
 Source0:	http://releases.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	21cc3cecbfec3dbc83b72297385685a1
+# Source0-md5:	c328ecdca8eeb71a6b730f36284ef68f
 URL:		http://www.mozilla.org/
 BuildRequires:	unzip
 Requires:	mozilla-firefox >= %{version}
@@ -19,10 +19,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_chromedir	%{_firefoxdir}/chrome
 
 %description
-French resources for Mozilla-firefox.
+French resources for Firefox.
 
 %description -l pl.UTF-8
-Francuskie pliki językowe dla Mozilli-firefox.
+Francuskie pliki językowe dla Firefoksa.
 
 %prep
 
